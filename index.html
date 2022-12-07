@@ -6,9 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- font awsome link -->
+    <script src="https://kit.fontawesome.com/fa2c48a7ed.js" crossorigin="anonymous"></script>
     <title>Document</title>
 
 <style>
+
+    .nav-menu a{
+
+        text-decoration: none;
+        margin-right: 5px;
+        color: orange;
+    }
+
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        background-color: cornsilk;
+        padding: 10px;
+    }
+    /* span{
+
+        display: flex;
+        justify-content: space-between;
+    } */
 
     .log-in{
 
@@ -35,10 +56,36 @@
         font-size: larger;
         font-weight: 700;
     }
+
+    .fa-user{
+       color: orange;
+       font-size: 3em;
+    }
+    .fa-arrow-right-from-bracket{
+
+        color: orange;
+        font-size: 3em;
+    }
 </style>
 
 </head>
 <body>
+
+    <header>
+        <nav class="nav-menu">
+           <span>
+            <a href="www.github.com">Home</a>
+            <a href="www.github.com">Product</a>
+            <a href="www.github.com">Order</a>
+            <a href="www.github.com">Portfolio</a>
+            <a href="www.github.com">About Us</a>
+           </span>
+           <span>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-sharp fa-solid fa-arrow-right-from-bracket"></i></a>
+           </span>
+        </nav>
+    </header>
     
     <section class="log-in">
         <form action="" class="log-form">
