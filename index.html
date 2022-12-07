@@ -158,12 +158,63 @@
         
     }
 
+    /* tiger mama */
+    .photo img{
+
+        width: 50%;
+       
+    }
+
+    .phot-frame{
+
+        border: 5px solid red;
+        margin: 5px;
+        padding: 5px;
+        width: 400px;
+        height: 500px;
+        /* overflow: hidden; */
+    }
+
+    .photo-details{
+
+        position: absolute;
+        top:0;
+        width: 300px;
+        height: 300px;
+        display: none;
+    }
+
+    .phot-frame{
+        position: relative;
+       
+    }
+
+    .phot-frame:hover .photo-details{
+
+        display: block;
+
+        background-color: rgba(172, 156, 118, 0.5);
+    }
+
+
+    .photo-details h3{
+
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .photo-album{
+
+        display: flex;
+    }
+
 </style>
 
 </head>
 <body>
 
-    <header>
+    <!-- <header>
         <nav class="nav-menu">
            <span>
             <a href="www.github.com">Home</a>
@@ -190,13 +241,13 @@
             
 
         </form>
-    </section>
+    </section> -->
 
 
     <!-- GRID START -->
 
     
-    <section class="grid-calender">
+    <!-- <section class="grid-calender">
         <div class="box">box</div>
         <div class="box">box</div>
         <div class="box">box</div>
@@ -220,7 +271,7 @@
 
     <!-- grid caleneder start-->
 
-    <container class="calender-container">
+    <!-- <container class="calender-container">
        
         <div class="date spec ">28</div>
         <div class="date spec">29</div>
@@ -261,13 +312,13 @@
         
 
 
-    </container>
+    </container> --> -->
     <!-- grid calender end -->
 
 
     <!-- media query start -->
 
-    <hr>
+    <!-- <hr>
 
     <div class="media">
         <div class="pic">
@@ -302,7 +353,111 @@
             <img src="person-1.png" alt="">
             <h2>tasty food</h2>
             Incidunt consectetur molestias laborum voluptatem, culpa debitis magni tempora dolor consequatur laudantium qui illum accusamus necessitatibus totam, dolorum sapiente deserunt. Nesciunt ratione libero est veniam distinctio ut cupiditate culpa commodi nihil. Animi consectetur ipsum reprehenderit dolore blanditiis explicabo labore veniam, quae voluptatibus temporibus qui, quibusdam soluta quos amet, quia voluptas?<br><button>order</button></div>
-    </div>
+    </div> -->
     <!-- media query end -->
+
+
+    <!-- position absolute, relative, flex wrap start  -->
+
+    <section>
+
+        <h3>album</h3>
+        <div class="photo-album">
+
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+            <div class="phot-frame">
+               <div class="photo">
+                <img src="person-1.png" alt="">
+               </div>
+
+               <div class="photo-details">
+                <h3>tiger magnam</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus rerum facere a minima fugiat consectetur accusantium autem architecto facilis illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente architecto nemo ut quaerat reiciendis quidem, consectetur dignissimos ad atque, error laborum odit esse natus dolorum unde illo eaque blanditiis nihil? Quae voluptate aspernatur quidem atque. Iusto repudiandae, corporis tempora obcaecati debitis neque. Deleniti quo provident expedita quos tenetur ipsam!</p>
+               </div>
+               </div>
+
+    </section>
+
+    <!-- position absolute, relative, flewrap end -->
 </body>
 </html>
