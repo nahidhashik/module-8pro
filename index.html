@@ -66,6 +66,52 @@
         color: orange;
         font-size: 3em;
     }
+
+
+    /* grid */
+
+    .box{
+
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid red;
+        border-radius: 2px;
+    }
+
+    .grid{
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+    }
+
+    /* grid calender start */
+
+    .date{
+
+        background-color: antiquewhite;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 50px;
+        height: 50px;
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+    .calender-container{
+
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 3px;
+        
+    }
+
+
+    .spec{
+
+        background-color: aqua;
+    }
+    /* grid calender end */
 </style>
 
 </head>
@@ -99,5 +145,77 @@
 
         </form>
     </section>
+
+
+    <!-- GRID START -->
+
+    
+    <section class="grid-calender">
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        
+    
+    </section>
+
+
+    <!-- GRID END -->
+    <hr>
+
+
+    <!-- grid caleneder start-->
+
+    <container class="calender-container">
+       
+        <div class="date spec ">28</div>
+        <div class="date spec">29</div>
+        <div class="date spec">30</div>
+        <div class="date spec">31</div>
+
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">31</div>
+        
+
+
+    </container>
+    <!-- grid calender end -->
 </body>
 </html>
